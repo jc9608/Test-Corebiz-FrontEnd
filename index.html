@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Corebiz - Test Front-End</title>
+		<!-- Favicon -->
+		<link
+			rel="icon"
+			href="https://www.corebiz.ag/wp-content/uploads/2020/06/cropped-logo-corebiz-favicon-1-32x32.png"
+			sizes="32x32"
+		/>
+		<link
+			rel="icon"
+			href="https://www.corebiz.ag/wp-content/uploads/2020/06/cropped-logo-corebiz-favicon-1-192x192.png"
+			sizes="192x192"
+		/>
+		<link
+			rel="apple-touch-icon"
+			href="https://www.corebiz.ag/wp-content/uploads/2020/06/cropped-logo-corebiz-favicon-1-180x180.png"
+		/>
+		<!-- Mis estilos -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;0,900;1,600;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Fontawesome -->
+		<script
+			src="https://kit.fontawesome.com/84889b86b5.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="navbar container">
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<a href="#" class="nav-logo"
+					><img src="res/logo.svg" alt="Corebiz"
+				/></a>
+				<input
+					type="search"
+					class="input-test"
+					name="txtBox"
+					placeholder="¿Qué estás buscando?"
+				/>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="#" class="nav-link"
+							><i class="far fa-user"></i> Mi Cuenta</a
+						>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link"
+							><i class="fas fa-shopping-cart"></i
+						></a>
+					</li>
+				</ul>
+			</nav>
+			<div class="banner">
+				<div class="main-txt container flex-left">
+					<div>
+						<p class="pre-t">¡Hola! ¿Qué es lo que buscas?</p>
+						<h2>
+							Crear o migrar tu <br />
+							comercio electrónico?
+						</h2>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<!-- <section>
+			INFO DEL JSON // PRODUCTOS
+			</section> -->
+			<section class="newsletter">
+				<div class="container">
+					<h2 class="title-news">¡Únete a nuestras novedades y promociones!</h2>
+					<div class="contenedor-form">
+						<form action="" method="POST" class="Signup_form" id="newsletter">
+							<input
+								required
+								id="name"
+								type="text"
+								placeholder="Ingresa tu nombre"
+							/>
+							<input
+								required
+								id="email"
+								type="email"
+								placeholder="Ingresa tu mail"
+							/>
+							<button form="newsletter" type="submit" class="Signup_button">
+								Suscribirme
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="column-footer">
+					<div>
+						<h2 class="underline2">Ubicación</h2>
+						<ul>
+							<li>Avenida Andrômeda, 2000. Bloco 6 e 8</li>
+							<li>Alphavile SP</li>
+							<li>brasil@corebiz.ag</li>
+							<li>+55 11 3090 1039</li>
+						</ul>
+					</div>
+				</div>
+				<div class="column-footer">
+					<a href="mailto:argentina@corebiz.ag" target="_blank"
+						><i class="fas fa-envelope"></i> CONTÁCTANOS</a
+					>
+					<a href=""><i class="fas fa-headset"></i> HABLA CON UN CONSULTOR</a>
+				</div>
+				<div class="row-footer">
+					<div>
+						<p class="footer-copy">Desarrollado por</p>
+						<img src="res/logo-w.svg" alt="Corebiz" />
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Scripts -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
